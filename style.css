@@ -1,11 +1,27 @@
-body {
-  background-color: lightgrey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
+* {
+  line-height: 1.5rem;
 }
 
-h1, 
-h2 {
+body, a{
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  text-decoration: none;
+}
+
+h1,
+h2, h3 {
   color: darkgreen;
 }
 
+img {
+  width: 200px;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul, ol {
+  list-style: none;
+}
